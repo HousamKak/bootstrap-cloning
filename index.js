@@ -7,11 +7,13 @@ const emailbr=document.querySelector('#email-br')
 const phonebr=document.querySelector('#phone-br')
 const Messagebr=document.querySelector('#Message-br')
 const div=document.createElement('div')
+const p=document.createElement('p')
 Name.addEventListener('input', (event) => {
     const input = event.target.value;
     if (input.length<5){
     Namebr.after(div)
-    div.append(Document.createTextNode("A name is required."))
+    div.append(p)
+    p.append(Document.createTextNode("A name is required."))
     }
 
 })
