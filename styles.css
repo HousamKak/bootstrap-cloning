@@ -117,28 +117,92 @@ border-radius: 0.5rem;
 margin-bottom: 6vh;
 }
 
-.Portoflio-im1{
 
+/* About */
 
+.About-co{
+background-color: #1abc9c;
 }
-.Portoflio-im2{
 
-    
+.About-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 23rem;
 }
-.Portoflio-im3{
 
-    
+.About-header{
+
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    color:white;
+    font-size: 3.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.Portoflio-im4{
 
-    
+.about-cutter{
+    width: 30%;
+    margin-bottom: 2rem ;
 }
-.Portoflio-im5{
 
-    
+.About-text-style{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
 }
-.Portoflio-im6{
 
+.About-text-style>p{
+    color: white;
+    font-size: 1.3rem;
+    border-left: 4rem;
+    padding: 0 3vh;
+    line-height: 4vh;
+}
+
+.About-btn{
+   width:30vh;
+   height: 8vh;
+   margin-bottom: 5rem;
+   border-style: solid;
+   border-radius: 1vh;
+   border-width: 2px;
+   border-color: white;
+   background-color: #1abc9c;
+   font-size: large;
+   color:white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+/* Contact Me */
+
+.contact-co{
+    background-color:white;
+}
     
+.contact-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 23rem;
+}
+
+.contact-header{
+
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    color:#2c3e50;
+    font-size: 3.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.contact-cutter{
+    width: 40%;
+    margin-bottom: 2rem ;
 }
 
