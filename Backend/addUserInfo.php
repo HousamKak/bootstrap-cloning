@@ -1,6 +1,5 @@
 <?php
 
-// add headers
 include("connection.php");
 
 $name = $_POST["name"];
